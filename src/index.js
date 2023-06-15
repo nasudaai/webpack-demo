@@ -1,4 +1,4 @@
-import {log, component} from './app.js';
+import { log, component } from './app.js';
 
 log();
 
