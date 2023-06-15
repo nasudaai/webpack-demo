@@ -1,16 +1,22 @@
 {
   "name": "webpack-demo",
+  "repository": {
+    "url": "git+https://github.com/nasudaai/webpack-demo.git"
+  },
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "webpack",
+    "deploy": "gh-pages -d  dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "webpack": "^5.87.0",
     "webpack-cli": "^5.1.4"
   }
