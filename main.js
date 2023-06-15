@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=()=>{const e=document.createElement("div");return e.innerHTML="written in JavaScript",e};document.body.appendChild(e()),console.log("app.js"),e(),console.log("index.js")})();
